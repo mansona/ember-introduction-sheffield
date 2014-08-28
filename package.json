@@ -29,5 +29,8 @@
     "express": "^4.8.5",
     "glob": "^4.0.5",
     "request": "^2.40.0"
+  },
+  "dependencies": {
+    "ember-cli-foundation": "0.0.2"
   }
 }
