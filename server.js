@@ -17,8 +17,6 @@ module.exports = function(app){
             url: "https://api.meetup.com/2/event_comments?&sign=true&photo-host=public&event_id=" + req.params.id + "&key=2f49622286060fb3f5d105f96f39",
             json:true}, function (e, r, json) {
 
-                
-                console.log(json);
           res.json(json.results);
       });
     });
