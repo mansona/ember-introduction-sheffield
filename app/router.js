@@ -5,6 +5,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+    this.resource('posts');
     this.resource('post', { path: '/post/:post_id' }, function() {
     this.route('edit');
     this.resource('comments', function() {
